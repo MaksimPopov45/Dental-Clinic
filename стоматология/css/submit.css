@@ -1,0 +1,116 @@
+.submit{
+    background: #28919A;
+    color: #fff;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 80px 0px 40px 0px;
+}
+.bottombox{
+position: relative;
+display: block;
+margin: 0;
+color: #fff;
+
+}
+.submit__wrapp{
+    padding: 80px 0px 40px 0px;
+    display: flex;
+}
+.submit-left{
+float: left;
+width: 50%;
+display: block;
+}
+.subtitle {
+    position: relative;
+    margin: 0px 0px 15px 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .2em;
+    font-weight: 700;
+    color: #0F2F49 !important;
+}
+.submit-h3{
+    font-size: 28px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.form-control {
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    color: #111;
+    float: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0;
+    padding: 10px 0;
+    text-indent: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+.right-img img{
+    object-fit: cover; 
+    max-height: 600px;
+    max-width: 100%; 
+    padding:10px ;
+}
+.small-box{
+    display: flex;
+    padding-top: 10px;
+    
+}
+.small-left{
+    padding: 0 0px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.small-right{
+    padding: 0 20px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+.submit:after {
+        content: "";
+        width: 50%;
+        height: 100%;
+        right: 0;
+        position: absolute;
+        background-image: url(/image/dudar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% 0%;
+        z-index: 1;
+        top: 0px;
+}
+
+    .btn-submit {
+        background-color: #28919A;;
+        background: linear-gradient(to bottom, #000000 0%, #333333 100%) repeat;
+        color: #fff;
+        border: 1px solid #000;
+        border-radius: 5px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 18px;
+        padding: 14px 30px;
+        text-align: center;
+        margin: 5px 0px;
+        text-decoration: none;
+        text-shadow: none;
+        position: relative;
+        overflow: hidden;
+        transition: all .55s ease 0s;
+        -webkit-transition: all .55s ease 0s;
+    }
+    .button{
+     
+        
+    
+    }

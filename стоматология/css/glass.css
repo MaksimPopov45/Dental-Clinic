@@ -1,0 +1,242 @@
+.eyed-panel{
+    position: relative;
+    display: none;
+}
+.eyed-panel.eyed-panel-open {
+    display: block;
+}
+.eyed-panel__inner{
+    position: relative;
+    background: #CBCBCB;
+    padding: 14px 0 25px 0;
+    border-bottom: 1px solid #999;
+}
+.eyed-panel .btn.eyed-toggle:hover {
+	border-color: #000;
+	color: #000;
+	background-color: white;
+}
+.eyed-panel .btn.eyed-toggle:hover .svg * {
+	fill: #fff;
+}
+.eyed-panel__item-value.active {
+	border: 3px solid #000;
+	border-radius: 5px;
+}
+
+
+.maxwidth-theme.version-none{
+    display: none;
+}
+
+
+
+.maxwidth-theme::after  {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.maxwidth-theme::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+.line-block{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0 -16px;
+}
+.flexbox--justify-beetwen{
+    justify-content: space-between;
+}
+.flexbox--wrap{
+    flex-wrap: wrap;
+}
+.line-block--24-vertical{
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+.line-block .line-block__item {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.eyed-panel__item{
+    position: relative;
+}
+.line-block {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0 -16px;
+}
+.line-block--8-vertical {
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+.line-block__item{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.eyed-panel__item-title{
+    color: #000;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+}
+.font_bold{
+    font-weight: bold;
+}
+/* .eyed-panel__item-values{
+
+} */
+.line-block--8{
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.eyed-panel__item-value {
+    position: relative;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #fff;
+    min-width: 56px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.eyed-panel__item-value.active {
+	border: 3px solid #000;
+	border-radius: 5px;
+}
+
+.svg {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+.line-block--8  .line-block__item {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+.eyed-panel__inner {
+    padding-left: 15px;
+}
+.svg-inline-black{
+    background-color: #000;
+}
+.svg-inline-blue{
+    background-color: #00cfff;
+}
+.eyed-panel .btn.eyed-toggle {
+    padding: 9px 24px 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    background-color: white;
+    color: #000;
+}
+.eyed-panel .btn.eyed-toggle:hover {
+	border-color: #000;
+	color: #000;
+	background-color: white;
+}
+.maxwidth-theme::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+.maxwidth-theme::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 1080px){
+.font_bold{
+    display: none;
+}
+.has-ripple{
+    display: flex;
+}
+}
+.has-ripple {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.ripple {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+
+    background: #fff;
+    opacity: 1;
+}
+.ripple-animate {
+    -webkit-animation: ripple;
+    -o-animation: ripple;
+    animation: ripple;
+}
+.smoll-fonts{
+font-size: 150%;
+}
+.midlle-fonts{
+    font-size: 180%;
+}
+.big-fonts{
+    font-size: 200%;
+}
+.smoll-fonts a{
+    font-size: 150%;
+}
+.midlle-fonts a{
+    font-size: 180%;
+}
+.big-fonts a{
+    font-size: 200%;
+}
+
+.yesImg img{
+    display: none;
+}
+.content.yesImg {
+    background-image: none;
+    background-color: rgb(255,255,255);
+    
+}
+.content.yesImg {
+    background-image: none;
+    background-color: rgb(255,255,255);
+    
+}
+.submit.yesImg  {
+    background-image: none;
+    background-color: rgb(255,255,255);
+    
+}
+.submit.yesImg::after {
+    background-image: none;
+}

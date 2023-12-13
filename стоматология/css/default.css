@@ -1,0 +1,28 @@
+.default{
+    position: relative;
+    display: block;
+    clear: both;
+    padding: 0px;
+    background-image: url(/image/стом.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #3EC1CD;
+    max-height: 380px;
+    width: 100%;
+}
+.default__text{
+    padding-top: 140px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 110%;
+    color: #164768;
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto;
+    .header-overlay 
+    margin: 0;
+    padding: 150px 0px 60px 0px;
+    
+}
+
